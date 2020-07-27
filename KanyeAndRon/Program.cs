@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.Http;
+using Newtonsoft.Json.Linq;
 
 namespace KanyeAndRon
 {
@@ -6,7 +8,16 @@ namespace KanyeAndRon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            QuoteGenerator.KanyeQuotes();
+            QuoteGenerator.RonQuotes();
+
+            QuoteGenerator.KanyeQuotes();
+            QuoteGenerator.RonQuotes();
+
+            QuoteGenerator.KanyeQuotes();
+            QuoteGenerator.RonQuotes();
+
         }
     }
+   
 }
